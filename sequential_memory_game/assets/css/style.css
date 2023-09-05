@@ -1,0 +1,19 @@
+#player, .close {
+    display: none;
+}
+
+#board-colors {
+    height: 300px;
+}
+
+.nav-link {cursor:pointer;}
+
+#blue   { cursor:pointer; background-color: blue; }
+#red    { cursor:pointer; background-color: red; }
+#green  { cursor:pointer; background-color: green; }
+#yellow { cursor:pointer; background-color: yellow; }
+#purple { cursor:pointer; background-color: purple; }
+#orange { cursor:pointer; background-color: orange; }
+#pink   { cursor:pointer; background-color: pink; }
+#gray   { cursor:pointer; background-color: gray; }
+#cyan   { cursor:pointer; background-color: cyan; }

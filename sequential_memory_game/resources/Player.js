@@ -1,0 +1,6 @@
+class Player {
+
+    name = "";
+    score = "";
+    
+}
