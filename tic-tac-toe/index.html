@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Erickson Tavares">
+        
+        <title> Tic-Tac-Toe </title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <h1> Tic-Tac-Toe</h1>
+
+        <div>
+            <div class="squere" id="1" onclick="chooseSquare(this.id)">-</div>
+            <div class="squere" id="2" onclick="chooseSquare(this.id)">-</div>
+            <div class="squere" id="3" onclick="chooseSquare(this.id)">-</div>
+        </div>
+        <div>
+            <div class="squere" id="4" onclick="chooseSquare(this.id)">-</div>
+            <div class="squere" id="5" onclick="chooseSquare(this.id)">-</div>
+            <div class="squere" id="6" onclick="chooseSquare(this.id)">-</div>
+        </div>
+        <div>
+            <div class="squere" id="7" onclick="chooseSquare(this.id)">-</div>
+            <div class="squere" id="8" onclick="chooseSquare(this.id)">-</div>
+            <div class="squere" id="9" onclick="chooseSquare(this.id)">-</div>
+        </div>
+
+        <div class="player">
+            <label> Player: </label>
+            <label  id="selected-player"></label>
+        </div>
+
+        <div class="winner">
+            <label> Winner: </label>
+            <label  id="winner-player"></label>
+        </div>
+
+        <div>
+            <button onclick="reset()">Restart</button>
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
